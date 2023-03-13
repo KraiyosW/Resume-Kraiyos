@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    background: #F5ebee;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #F5ebee;
+}
+header{
+    background:#FF2950;
+    width: 100%;
+    height: 30rem;
+}
+.text-header{
+    color: #FFFFFF ;
+    font-family: 'Anonymous Pro';
+    font-weight: 700;
+    font-size: 15rem;
+    padding-top: 7.5rem;
+    padding-left: 50rem;
+}
+.introduction{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5rem
+}
+.left-introduction{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+.right-introduction{
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+.text-hello{
+    font-size: 7rem;
+    font-family: 'Anonymous Pro';
+    color: black;
+    margin-bottom: 10rem;
+    font-weight: 300;
+}
+.text-introduction{
+    font-size: 12rem;
+    font-family: 'Anonymous Pro';
+    color: black;
+    margin-bottom: 10rem;
+    font-weight: 700;
+    white-space: pre-line;
+}
+.text-information{
+    width: 120rem;
+    font-size: 4rem;
+    font-family: 'Anonymous Pro';
+    color: black;
+    margin-bottom: 5rem;
+    font-weight: 200;
+    white-space: pre-line;
+}
+.text-normal{
+    font-size: 4rem;
+    font-family: 'Anonymous Pro';
+    color: rgba(34, 34, 34, 0.5);
+    margin-bottom: 5rem;
+    font-weight: 100;
+    white-space: pre-line;
+    margin-top: 3.5rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+.contect{
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon-img{
+    width: 10rem;
+    height: 10rem;
+    margin-right: 3.5rem;
+    border: none;
+}
+.bt-group{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+    border: none;
+}
+.bt-sendrequest{
+   width: 28rem;
+   height: 9rem;
+   background: #FF2950; 
+   border-radius: 10px;
+   font-size: 3rem;
+   font-family: 'Anonymous Pro';
+   color: #FFFFFF;
+   margin-bottom: 5rem;
+   font-weight: 100;
+   white-space: pre-line;
+   margin-top: 3.5rem;
+   margin-right: 3rem;
+   text-align: center;
+   border: none;
+}
+.bt-downloadCV{
+    width: 28rem;
+    height: 9rem; 
+    border-radius: 10px;
+    font-size: 3rem;
+    font-family: 'Anonymous Pro';
+    color: #FFFFFF;
+    margin-bottom: 5rem;
+    font-weight: 100;
+    white-space: pre-line;
+    margin-top: 3.5rem;
+    margin-right: 3rem;
+    text-align: center;
+    border:3px solid lightsalmon;
+    color: rgba(34, 34, 34, 0.5);
+ }
+ .picture-profile{
+    border-radius: 50%;
+    width: 90rem;
+    height: 90rem;
+ }
+ .background-picture{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+ }
+ .bullet-point1{
+    position: absolute;
+    width: 45rem;
+    height: 45rem;
+    z-index: -1;
+    left:50rem;
+ }
+ .bullet-point2{
+    position: absolute;
+    top:50rem;
+    width: 45rem;
+    height: 45rem;
+    z-index: -2;
+ }
+ button{
+    border: none;
+ }
+ .content-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25rem;
+    margin-left: 10rem;
+ }
+ .content-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+ }
+ .content-sub-item{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 15rem;
+ }
+ .circle{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 15rem;
+    padding-left: 25rem;
+    
+ }
+ .ellipse{
+    width: 25rem;
+    height: 25rem;
+ }
+ .in-ellipse-icon{
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    top: 5rem;
+    left: 31rem;
+}
+.text-content{
+    text-align: center;
+    width: 100%;
+    font-size: 7rem;
+    font-family: 'JetBrains Mono';
+    color: black;
+    margin-bottom: 5rem;
+    font-weight: 500;
+    white-space: pre-line;
+    margin-top: 0.5rem;
+}
+.text-normal1{
+    font-size: 4rem;
+    font-family: 'Anonymous Pro';
+    color: rgba(34, 34, 34, 0.5);
+    margin-bottom: 5rem;
+    font-weight: 100;
+    white-space: pre-line;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.technical-profile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20rem;
+    margin-bottom: 15rem;
+    padding-left:15rem ;
+}
+.technical-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+.logo-technical-skills{
+    width: 70rem;
+    height: 80rem;
+    margin-right: 30rem;
+    margin-bottom: 15rem;
+}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60rem;
+    padding-top: 12rem;
+    width: 100%;
+    height: 20%;
+    background:#Ebf5f5 ;
+}
+button:hover{
+    border-color: aqua;
+}
