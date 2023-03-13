@@ -28,7 +28,7 @@ export function Introduction(){
                     <p className='text-normal'>Follow me : </p>
                     <a href='https://github.com/KraiyosW'>
                         <button >
-                            <img className='icon-img' src="\Picture\github.png" alt='github icon' >
+                            <img className='icon-img' src="\Picture\toeyprofile.jpg" alt='github icon' >
                                 </img>
                                 </button>
                     </a>
